@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>أقسام المحتوى | Content sections — طية Tayya</title><meta name="description" content="دليل طية للتاجر: الإعداد، الأقسام، المقاسات، الصور، الحركة والدعم. Tayya merchant documentation.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/fonts/tayya.css"><link rel="stylesheet" href="style.css"></head>
+<body data-page="editorial"><a class="skip" href="#content">انتقل إلى المحتوى</a>
+<header><a class="brand" href="index.html"><strong>طية</strong><span>دليل التاجر <span lang="en" dir="ltr">Tayya guide</span></span></a>
+<div class="header-links"><a href="#english" lang="en" dir="ltr">English</a><a href="support.html">المساعدة</a></div></header>
+<div class="layout"><aside class="desktop-nav"><nav aria-label="أدلة طية"><a href="index.html">دليل طية<span lang="en" dir="ltr">Overview</span></a><a href="getting-started.html">البدء والتركيب<span lang="en" dir="ltr">Getting started</span></a><a href="settings.html">الإعدادات العامة<span lang="en" dir="ltr">Theme settings</span></a><a href="catalogue.html">دليل الأقسام<span lang="en" dir="ltr">Section catalogue</span></a><a href="campaign.html">الحملة الرئيسية<span lang="en" dir="ltr">Campaign hero</span></a><a href="commerce.html">أقسام التسوق<span lang="en" dir="ltr">Shopping sections</span></a><a href="editorial.html" aria-current="page">أقسام المحتوى<span lang="en" dir="ltr">Content sections</span></a><a href="products-and-content.html">المنتجات والمقاسات<span lang="en" dir="ltr">Products and sizing</span></a><a href="motion-and-video.html">الحركة والفيديو<span lang="en" dir="ltr">Motion and video</span></a><a href="demo-layout.html">ترتيب العرض التجريبي<span lang="en" dir="ltr">Demo layout</span></a><a href="integrations.html">التكاملات<span lang="en" dir="ltr">Integrations</span></a><a href="updates-and-troubleshooting.html">التحديث وحل المشكلات<span lang="en" dir="ltr">Updates and troubleshooting</span></a><a href="support.html">المساعدة والتواصل<span lang="en" dir="ltr">Help and contact</span></a></nav></aside>
+<div class="reading"><details class="mobile-nav"><summary>فهرس الدليل <span lang="en" dir="ltr">Contents</span></summary><nav aria-label="أدلة طية"><a href="index.html">دليل طية<span lang="en" dir="ltr">Overview</span></a><a href="getting-started.html">البدء والتركيب<span lang="en" dir="ltr">Getting started</span></a><a href="settings.html">الإعدادات العامة<span lang="en" dir="ltr">Theme settings</span></a><a href="catalogue.html">دليل الأقسام<span lang="en" dir="ltr">Section catalogue</span></a><a href="campaign.html">الحملة الرئيسية<span lang="en" dir="ltr">Campaign hero</span></a><a href="commerce.html">أقسام التسوق<span lang="en" dir="ltr">Shopping sections</span></a><a href="editorial.html" aria-current="page">أقسام المحتوى<span lang="en" dir="ltr">Content sections</span></a><a href="products-and-content.html">المنتجات والمقاسات<span lang="en" dir="ltr">Products and sizing</span></a><a href="motion-and-video.html">الحركة والفيديو<span lang="en" dir="ltr">Motion and video</span></a><a href="demo-layout.html">ترتيب العرض التجريبي<span lang="en" dir="ltr">Demo layout</span></a><a href="integrations.html">التكاملات<span lang="en" dir="ltr">Integrations</span></a><a href="updates-and-troubleshooting.html">التحديث وحل المشكلات<span lang="en" dir="ltr">Updates and troubleshooting</span></a><a href="support.html">المساعدة والتواصل<span lang="en" dir="ltr">Help and contact</span></a></nav></details>
+<main id="content" tabindex="-1"><h1 id="_1">دليل الأقسام التحريرية والمعلومات في طية</h1>
+<p>هذه الأقسام جزء من قالب طية الأصلي لسلة. تضيفها من تخصيص الصفحة الرئيسية، وتختار المحتوى وترتبه من محرر القالب. لا تنشئ الأقسام منتجات أو خصومات أو سياسات شحن، ولا تستبدل خدمات سلة.</p>
+<p>الحقول التي تحمل أسماء بين علامات <code>code</code> أدناه هي معرفات الإعدادات الثابتة، لتسهيل الدعم والتحديث. تظهر للمستخدم في المحرر بعناوين عربية واضحة. يمكنك إضافة أكثر من نسخة من أي قسم؛ تحتفظ كل نسخة بمحتواها بصورة مستقلة.</p>
+<h2 id="_2">قواعد مشتركة</h2>
+<ul>
+<li>أضف المحتوى العربي وترجمته الإنجليزية في الحقول متعددة اللغات. تحدد لغة المتجر النص واتجاه القراءة. اختيار اتجاه القسم يراعي RTL وLTR تلقائياً.</li>
+<li>تأتي الألوان والخطوط من إعدادات طية العامة. لا يقلب أي قسم الصفحة بين الوضع الفاتح والداكن، ولا يفرض لوناً على علامتك.</li>
+<li>اختر روابط المنتجات والتصنيفات والصفحات من محدد سلة. عندما يكون الرابط اختيارياً، لا يظهر الزر إلا مع نصه ووجهته. استخدم رابط <code>https</code> كاملاً للوجهات الخارجية.</li>
+<li>ارفع صوراً أصلية أو مرخصة، دون كتابة نصوص أساسية داخل الصورة. أضف وصفاً بديلاً يوضح ما يحتاجه الزائر الذي لا يرى الصورة. الصور المقترحة أدناه هي أبعاد رفع، وليست وعداً بقياس ثابت على كل شاشة.</li>
+<li>لا يعرض القسم عناصر مكتملة جزئياً تتطلب حقولاً أساسية. مثال: سؤال دون إجابة أو صف مقاس دون قياس أول لا يظهر. إذا لم يبق محتوى صالح، يختفي القسم بدلاً من إظهار صندوق فارغ للمتسوق.</li>
+<li>النصوص العادية تحفظ فواصل الأسطر، ولا تنفذ HTML يضاف داخلها. استخدم صفحات سلة ووصف المنتج للنصوص الغنية والطويلة.</li>
+<li>العناوين الموجزة أوضح على الجوال: 3 إلى 7 كلمات عادة. الحدود القصوى تمنع إدخال كتل طويلة في موضع عنوان، لكنها ليست طولاً مستهدفاً.</li>
+<li>اعتمد سياسة المتجر وبيانات المورد مصدراً للحقائق. لا تضف ضماناً أو توصيلاً مجانياً أو تركيب خامة أو تاريخ تأسيس غير مؤكد.</li>
+</ul>
+<h2 id="_3">صورة وقصة قصيرة</h2>
+<p>مناسب لتقديم مجموعة، تفصيل في قطعة، أو قصة مرتبطة بالمنتجات.</p>
+<div class="table-scroll" role="region" tabindex="0" aria-label="جدول قابل للتمرير"><table>
+<thead>
+<tr>
+<th scope="col">الحقل</th>
+<th scope="col">الاستخدام والحد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>image</code></td>
+<td>صورة مطلوبة، 1200×1500 بنسبة 4:5.</td>
+</tr>
+<tr>
+<td><code>mobile_image</code></td>
+<td>صورة بديلة اختيارية للجوال، 800×1000.</td>
+</tr>
+<tr>
+<td><code>image_alt</code></td>
+<td>وصف الصورة، مطلوب، حتى 160 حرفاً.</td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td>عنوان مطلوب، حتى 80 حرفاً.</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>نص اختياري، حتى 600 حرف.</td>
+</tr>
+<tr>
+<td><code>url</code>, <code>link_label</code></td>
+<td>وجهة من محدد سلة ونص زر حتى 36 حرفاً. يظهر الزر عند اكتمالهما.</td>
+</tr>
+<tr>
+<td><code>image_after_text</code></td>
+<td>نقل الصورة إلى نهاية اتجاه القراءة على سطح المكتب.</td>
+</tr>
+<tr>
+<td><code>image_fit</code></td>
+<td><code>cover</code> لملء الإطار أو <code>contain</code> لحفظ الصورة كاملة.</td>
+</tr>
+</tbody>
+</table></div>
+<p>يعرض سطح المكتب صورة ونصاً متقابلين. على الجوال تظهر الصورة ثم النص والزر، مهما كان خيار ترتيب سطح المكتب. لا يعمل القسم دون الصورة والعنوان.</p>
+<p>مثال إعداد: صورة لقطعة من مجموعة معينة، عنوان المجموعة، فقرة توضح القصة أو القماش، ورابط تصنيف المجموعة. لا تستخدم زر شراء إذا كانت الوجهة مجرد صفحة معلومات.</p>
+<h2 id="_4">شريط ترويجي</h2>
+<p>رسالة واضحة مع وجهة اختيارية وصورة عريضة اختيارية.</p>
+<div class="table-scroll" role="region" tabindex="0" aria-label="جدول قابل للتمرير"><table>
+<thead>
+<tr>
+<th scope="col">الحقل</th>
+<th scope="col">الاستخدام والحد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td>عنوان مطلوب، حتى 90 حرفاً.</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>شروط الرسالة الفعلية، حتى 260 حرفاً.</td>
+</tr>
+<tr>
+<td><code>image</code></td>
+<td>صورة عريضة اختيارية، 1600×500.</td>
+</tr>
+<tr>
+<td><code>mobile_image</code></td>
+<td>صورة جوال اختيارية، 800×600.</td>
+</tr>
+<tr>
+<td><code>image_alt</code></td>
+<td>وصف الصورة، حتى 160 حرفاً. اتركه فارغاً إذا كانت الصورة زخرفية فقط ويشرح النص كل محتواها.</td>
+</tr>
+<tr>
+<td><code>url</code>, <code>link_label</code></td>
+<td>الوجهة ونص الرابط حتى 36 حرفاً.</td>
+</tr>
+</tbody>
+</table></div>
+<p>الصورة أعلى مساحة نص معتمة، لتظل الرسالة مقروءة مع أي صورة أو مخطط ألوان. على الجوال تصبح الصورة بنسبة 4:3؛ تساعد الصورة البديلة على منع قص عنصر مهم. يمكن استخدام القسم دون صورة. لا ينشئ هذا القسم تخفيضات ولا يضيف شروطاً للسلة؛ فعّل أي عرض فعلي من أدوات سلة المناسبة أولاً.</p>
+<h2 id="_5">شبكة الحملات</h2>
+<p>من بطاقة إلى أربع بطاقات لمجموعات أو حملات مختلفة.</p>
+<div class="table-scroll" role="region" tabindex="0" aria-label="جدول قابل للتمرير"><table>
+<thead>
+<tr>
+<th scope="col">الحقل</th>
+<th scope="col">الاستخدام والحد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code>, <code>description</code></td>
+<td>عنوان اختياري 80 حرفاً ومقدمة حتى 320 حرفاً.</td>
+</tr>
+<tr>
+<td><code>layout</code></td>
+<td>صور متوازنة <code>balanced</code> أو تمييز الصورة الأولى <code>featured</code>.</td>
+</tr>
+<tr>
+<td><code>cards</code></td>
+<td>من 1 إلى 4 بطاقات.</td>
+</tr>
+<tr>
+<td><code>cards.image</code></td>
+<td>صورة مطلوبة لكل بطاقة، 1000×1250 عادة.</td>
+</tr>
+<tr>
+<td><code>cards.image_alt</code></td>
+<td>وصف مطلوب، حتى 160 حرفاً.</td>
+</tr>
+<tr>
+<td><code>cards.title</code></td>
+<td>عنوان مطلوب، حتى 64 حرفاً.</td>
+</tr>
+<tr>
+<td><code>cards.description</code></td>
+<td>وصف اختياري، حتى 160 حرفاً.</td>
+</tr>
+<tr>
+<td><code>cards.url</code></td>
+<td>وجهة البطاقة من محدد سلة، مطلوبة.</td>
+</tr>
+</tbody>
+</table></div>
+<p>مع ثلاث بطاقات وخيار التمييز، تشغل الأولى ضعف عرض كل بطاقة تالية، وتظهر صورتها بنسبة 8:5. استخدم للصورة الأولى حينها 1600×1000 أو صورة تسمح بهذا الاقتصاص. في الجوال تظهر البطاقة الأولى على عرض الصف عند وجود ثلاث بطاقات، ثم بطاقتان أسفلها. بقية الأعداد تستخدم شبكة مرنة بعمودين، والبطاقة المنفردة لا تترك مكاناً لبطاقات وهمية. لا تُعرض بطاقة دون صورتها وعنوانها.</p>
+<h2 id="_6">معرض الصور</h2>
+<p>من صورة إلى ثماني صور مع تعليقات أو وجهات اختيارية.</p>
+<div class="table-scroll" role="region" tabindex="0" aria-label="جدول قابل للتمرير"><table>
+<thead>
+<tr>
+<th scope="col">الحقل</th>
+<th scope="col">الاستخدام والحد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code>, <code>description</code></td>
+<td>عنوان 80 حرفاً ومقدمة 320 حرفاً، كلاهما اختياري.</td>
+</tr>
+<tr>
+<td><code>layout</code></td>
+<td>شبكة <code>grid</code> أو شريط صور <code>rail</code>.</td>
+</tr>
+<tr>
+<td><code>image_fit</code></td>
+<td>ملء الإطار <code>cover</code> أو عرض كامل الصورة <code>contain</code>.</td>
+</tr>
+<tr>
+<td><code>images</code></td>
+<td>من 1 إلى 8 صور.</td>
+</tr>
+<tr>
+<td><code>images.image</code></td>
+<td>صورة مطلوبة، 1000×1250.</td>
+</tr>
+<tr>
+<td><code>images.image_alt</code></td>
+<td>وصف مطلوب، حتى 180 حرفاً.</td>
+</tr>
+<tr>
+<td><code>images.caption</code></td>
+<td>تعليق اختياري أسفل الصورة، حتى 140 حرفاً.</td>
+</tr>
+<tr>
+<td><code>images.url</code></td>
+<td>وجهة اختيارية من محدد سلة.</td>
+</tr>
+</tbody>
+</table></div>
+<p>تعرض الشبكة عمودين على الجوال؛ الصورة المنفردة تأخذ العرض. يمكن تحريك الشريط باللمس ولوحة المفاتيح بعد التركيز عليه. يظل طرف الصورة التالية ظاهراً لتوضيح وجود مزيد من الصور. لا يوجد تشغيل تلقائي أو نافذة تكبير تفرض نفسها، والنقر على صورة بلا وجهة لا يوهم بوجود إجراء.</p>
+<h2 id="_7">قصة بالفيديو</h2>
+<p>يدعم القسم فيديو YouTube عند الطلب أو ملف فيديو مباشر. الجدول التالي يشرح YouTube؛ لإعداد الملف المباشر والتشغيل الصامت راجع <a href="motion-and-video.html">الحركة والفيديو</a>.</p>
+<div class="table-scroll" role="region" tabindex="0" aria-label="جدول قابل للتمرير"><table>
+<thead>
+<tr>
+<th scope="col">الحقل</th>
+<th scope="col">الاستخدام والحد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td>عنوان مطلوب، حتى 80 حرفاً؛ يستخدم أيضاً اسماً ميسراً للمشغّل.</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>مقدمة اختيارية، حتى 320 حرفاً.</td>
+</tr>
+<tr>
+<td><code>video_url</code></td>
+<td>رابط HTTPS مطلوب لفيديو YouTube عام يسمح بالتضمين، حتى 300 حرف.</td>
+</tr>
+<tr>
+<td><code>poster</code></td>
+<td>صورة غلاف مطلوبة، 1600×900 بنسبة 16:9.</td>
+</tr>
+<tr>
+<td><code>poster_alt</code></td>
+<td>وصف اختياري لصورة الغلاف، حتى 160 حرفاً.</td>
+</tr>
+<tr>
+<td><code>transcript</code></td>
+<td>نص بديل مطلوب، حتى 1000 حرف. يشمل الكلام والمعلومات المرئية المهمة.</td>
+</tr>
+</tbody>
+</table></div>
+<p>الصيغ المدعومة: روابط <code>youtube.com/watch?v=…</code> و<code>youtu.be/…</code> و<code>youtube.com/shorts/…</code> و<code>youtube.com/live/…</code> و<code>youtube.com/embed/…</code> وروابط تضمين <code>youtube-nocookie.com</code>. يجب أن يكون معرف الفيديو صحيحاً من 11 محرفاً. يُرفض التضمين للرابط غير المدعوم؛ لا يُحمّل نطاق خارجي عشوائي في إطار.</p>
+<p>لا يطلب القسم مشغّل YouTube ولا يتصل به قبل الضغط على التشغيل. بعد ذلك يستخدم نطاق التضمين المحسن للخصوصية <code>youtube-nocookie.com</code>، وقد يتصل بخدمات YouTube المرتبطة بتشغيل الفيديو. لا يعني ذلك وعداً بأن التشغيل خالٍ من التتبع. يبقى رابط مشاهدة خارجية واضح يفتح نافذة جديدة، ويعمل حتى دون JavaScript. عند بطء تحميل المشغّل تظهر حالة تحميل، ثم رسالة تعذر مع إمكانية إعادة المحاولة أو استخدام الرابط الخارجي.</p>
+<p>فعّل الترجمات داخل YouTube وتحقق من السماح بالتضمين وحقوق الصوت والصورة. توفر الفيديو، قيود العمر والمنطقة، الإعلانات وسلوك مشغّله أمور يديرها YouTube، ولا يستطيع القالب ضمانها. عدم التضمين لفيديو خاص قد يظهر داخل المشغّل نفسه؛ رابط المشاهدة الخارجي يبقى متاحاً.</p>
+<h2 id="_8">الخدمات ومعلومات المتجر</h2>
+<p>من معلومة إلى أربع معلومات خدمة حقيقية، دون أرقام أو وعود افتراضية.</p>
+<div class="table-scroll" role="region" tabindex="0" aria-label="جدول قابل للتمرير"><table>
+<thead>
+<tr>
+<th scope="col">الحقل</th>
+<th scope="col">الاستخدام والحد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td>عنوان اختياري، حتى 80 حرفاً.</td>
+</tr>
+<tr>
+<td><code>items</code></td>
+<td>من 1 إلى 4 معلومات.</td>
+</tr>
+<tr>
+<td><code>items.icon</code></td>
+<td>أيقونة اختيارية من أيقونات سلة.</td>
+</tr>
+<tr>
+<td><code>items.title</code></td>
+<td>عنوان مطلوب، حتى 56 حرفاً.</td>
+</tr>
+<tr>
+<td><code>items.description</code></td>
+<td>تفاصيل مطلوبة، حتى 200 حرف.</td>
+</tr>
+<tr>
+<td><code>items.url</code></td>
+<td>رابط صفحة تفاصيل أو رابط خارجي، اختياري. يصبح العنوان رابطاً عند اختياره.</td>
+</tr>
+</tbody>
+</table></div>
+<p>تظهر المعلومات بجوار بعضها على سطح المكتب وفي قائمة مقروءة على الجوال. مثال صحيح: عنوان «خيارات التوصيل» مع وصف مناطق الخدمة الفعلية ورابط صفحة الشحن. لا تكتب «شحن مجاني» لمجرد أن القالب يتيح كتابة هذه العبارة.</p>
+<h2 id="_9">الأسئلة الشائعة</h2>
+<p>من سؤال إلى 12 سؤالاً، يعمل بلوحة المفاتيح دون JavaScript.</p>
+<div class="table-scroll" role="region" tabindex="0" aria-label="جدول قابل للتمرير"><table>
+<thead>
+<tr>
+<th scope="col">الحقل</th>
+<th scope="col">الاستخدام والحد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code>, <code>description</code></td>
+<td>عنوان اختياري 80 حرفاً ومقدمة 320 حرفاً.</td>
+</tr>
+<tr>
+<td><code>open_first</code></td>
+<td>فتح السؤال الأول عند عرض الصفحة، مغلق افتراضياً.</td>
+</tr>
+<tr>
+<td><code>questions</code></td>
+<td>من 1 إلى 12 سؤالاً.</td>
+</tr>
+<tr>
+<td><code>questions.question</code></td>
+<td>السؤال، مطلوب، حتى 160 حرفاً.</td>
+</tr>
+<tr>
+<td><code>questions.answer</code></td>
+<td>الإجابة، مطلوبة، حتى 1000 حرف.</td>
+</tr>
+<tr>
+<td><code>questions.url</code>, <code>questions.link_label</code></td>
+<td>وجهة اختيارية ونص رابط حتى 48 حرفاً.</td>
+</tr>
+</tbody>
+</table></div>
+<p>يستطيع الزائر فتح عدة أسئلة في الوقت نفسه؛ فتح سؤال في نسخة من القسم لا يؤثر في نسخة أخرى. تُحفظ فواصل الأسطر وتظهر الإجابات في اتجاه اللغة. لا يضيف القسم تلقائياً بيانات FAQ منظمة قد تتعارض مع بيانات سلة أو تطبيقات المتجر.</p>
+<h2 id="_10">دليل المقاس والملاءمة</h2>
+<p>دليل خاص بمجموعة مسماة من المنتجات، مع جدول مرن وصورة قياس اختيارية.</p>
+<div class="table-scroll" role="region" tabindex="0" aria-label="جدول قابل للتمرير"><table>
+<thead>
+<tr>
+<th scope="col">الحقل</th>
+<th scope="col">الاستخدام والحد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td>عنوان مطلوب، حتى 80 حرفاً.</td>
+</tr>
+<tr>
+<td><code>applies_to</code></td>
+<td>المنتجات أو القصّات التي يغطيها الجدول، مطلوب، حتى 320 حرفاً.</td>
+</tr>
+<tr>
+<td><code>instructions</code></td>
+<td>كيفية أخذ القياس، حتى 1000 حرف. وضّح هل القياس للجسم أم للقطعة.</td>
+</tr>
+<tr>
+<td><code>image</code>, <code>image_alt</code></td>
+<td>صورة قياس اختيارية 800×1000 ووصفها حتى 180 حرفاً. تظهر الصورة كاملة لتظل علامات القياس مقروءة.</td>
+</tr>
+<tr>
+<td><code>table_caption</code></td>
+<td>عنوان مقروء للجدول، مطلوب، حتى 100 حرف.</td>
+</tr>
+<tr>
+<td><code>units</code></td>
+<td>وحدة القياس المطلوبة، حتى 32 حرفاً، مثل سنتيمتر أو بوصة.</td>
+</tr>
+<tr>
+<td><code>size_label</code></td>
+<td>اسم عمود المقاس، مطلوب، حتى 40 حرفاً.</td>
+</tr>
+<tr>
+<td><code>measurement_1_label</code></td>
+<td>اسم القياس الأول، مطلوب، حتى 48 حرفاً.</td>
+</tr>
+<tr>
+<td><code>measurement_2_label</code>, <code>measurement_3_label</code></td>
+<td>اسما القياسين الاختياريين، حتى 48 حرفاً لكل منهما. العمود ذو العنوان الفارغ لا يظهر.</td>
+</tr>
+<tr>
+<td><code>sizes</code></td>
+<td>من 1 إلى 16 صفاً.</td>
+</tr>
+<tr>
+<td><code>sizes.size</code></td>
+<td>اسم المقاس، مطلوب، حتى 32 حرفاً.</td>
+</tr>
+<tr>
+<td><code>sizes.measurement_1</code></td>
+<td>القياس الأول، مطلوب، حتى 40 حرفاً.</td>
+</tr>
+<tr>
+<td><code>sizes.measurement_2</code>, <code>sizes.measurement_3</code></td>
+<td>القياسات الاختيارية، حتى 40 حرفاً لكل منها. تظهر عبارة «غير محدد» إذا ظهر العمود دون قيمة صفه.</td>
+</tr>
+<tr>
+<td><code>notes</code></td>
+<td>ملاحظات إضافية للملاءمة، حتى 600 حرف.</td>
+</tr>
+<tr>
+<td><code>url</code>, <code>link_label</code></td>
+<td>وجهة دليل أو منتج أو مجموعة ونص رابط حتى 48 حرفاً.</td>
+</tr>
+</tbody>
+</table></div>
+<p>الجدول له عنوان ورؤوس أعمدة وصفوف واضحة لقارئ الشاشة. على الشاشات الصغيرة يمرّر الجدول داخل القسم، دون أن يوسّع الصفحة. يمكن الوصول لمنطقة الجدول بلوحة المفاتيح.</p>
+<p>هذا المحتوى لا يغيّر خيارات المنتج ولا يحسب مقاس الزائر، ولا يحوّل الوحدات تلقائياً. لا تفترض أن كل عباية أو مجموعة تستخدم الجدول نفسه. أنشئ نسخة مستقلة لكل قصة تحتاج دليلاً مختلفاً، وسمِّ المنتجات التي يشملها. ضع الدليل الخاص بالمنتج في وصفه أو معلوماته المدعومة داخل سلة، أو اربط وصفه بصفحة معلومات منشورة. استخدم خيارات المنتج الأصلية للأطوال والألوان والمقاسات القابلة للشراء. القسم الرئيسي لا يضيف حقلاً خاصاً غير موثق للمنتجات.</p>
+<h2 id="_11">الخامة والعناية</h2>
+<p>من خامة إلى ست خامات، مع نطاق تطبيق واضح وتعليمات عناية مستقلة.</p>
+<div class="table-scroll" role="region" tabindex="0" aria-label="جدول قابل للتمرير"><table>
+<thead>
+<tr>
+<th scope="col">الحقل</th>
+<th scope="col">الاستخدام والحد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code>, <code>description</code></td>
+<td>عنوان اختياري 80 حرفاً ومقدمة 320 حرفاً.</td>
+</tr>
+<tr>
+<td><code>expand_care</code></td>
+<td>إظهار تعليمات العناية مفتوحة، مغلقة افتراضياً.</td>
+</tr>
+<tr>
+<td><code>fabrics</code></td>
+<td>من 1 إلى 6 سجلات.</td>
+</tr>
+<tr>
+<td><code>fabrics.title</code></td>
+<td>اسم الخامة المطلوب، حتى 80 حرفاً.</td>
+</tr>
+<tr>
+<td><code>fabrics.applies_to</code></td>
+<td>المنتجات أو المجموعة المعنية، مطلوب، حتى 180 حرفاً.</td>
+</tr>
+<tr>
+<td><code>fabrics.composition</code></td>
+<td>تركيب الخامة وملمسها، مطلوب، حتى 320 حرفاً.</td>
+</tr>
+<tr>
+<td><code>fabrics.care</code></td>
+<td>تعليمات العناية، مطلوبة، حتى 1000 حرف.</td>
+</tr>
+<tr>
+<td><code>fabrics.image</code>, <code>fabrics.image_alt</code></td>
+<td>صورة اختيارية 800×1000 ووصف حتى 180 حرفاً.</td>
+</tr>
+<tr>
+<td><code>fabrics.url</code></td>
+<td>رابط المنتج أو المجموعة أو صفحة الدليل. يظهر اسم الخامة كرابط عند اختياره.</td>
+</tr>
+</tbody>
+</table></div>
+<p>تظهر السجلات في عمودين على الشاشات الواسعة وعمود واحد على الجهاز اللوحي والجوال. تفتح تعليمات العناية بعنصر إفصاح أصلي، دون مكتبة تفاعل إضافية. استخدم بيانات المورد وملصق القطعة المعتمد؛ اسم القماش وحده لا يحدد برنامج الغسيل أو درجة الكي. اذكر المعلومات الدقيقة أيضاً في وصف كل منتج، ولا تفترض أن القسم يزامن نفسه مع المنتجات.</p>
+<h2 id="_12">قصة العلامة ومحطاتها</h2>
+<p>قصة مكتوبة وصورة اختيارية، مع محطات زمنية إذا كانت مفيدة وحقيقية.</p>
+<div class="table-scroll" role="region" tabindex="0" aria-label="جدول قابل للتمرير"><table>
+<thead>
+<tr>
+<th scope="col">الحقل</th>
+<th scope="col">الاستخدام والحد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td>عنوان مطلوب، حتى 80 حرفاً.</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>قصة مطلوبة، حتى 1000 حرف.</td>
+</tr>
+<tr>
+<td><code>image</code>, <code>image_alt</code></td>
+<td>صورة اختيارية 1600×1000 ووصف حتى 180 حرفاً.</td>
+</tr>
+<tr>
+<td><code>milestones</code></td>
+<td>من 0 إلى 6 محطات. يمكن تركها كلها فارغة.</td>
+</tr>
+<tr>
+<td><code>milestones.period</code></td>
+<td>تاريخ أو مرحلة فعلية، مطلوب عند إضافة محطة، حتى 48 حرفاً.</td>
+</tr>
+<tr>
+<td><code>milestones.title</code></td>
+<td>عنوان المحطة، مطلوب، حتى 72 حرفاً.</td>
+</tr>
+<tr>
+<td><code>milestones.description</code></td>
+<td>وصف اختياري، حتى 420 حرفاً.</td>
+</tr>
+<tr>
+<td><code>url</code>, <code>link_label</code></td>
+<td>وجهة القصة الكاملة ونص الرابط حتى 48 حرفاً.</td>
+</tr>
+</tbody>
+</table></div>
+<p>رتّب المحطات زمنياً في المحرر. لا يرتبها القسم اعتماداً على أرقام أو نصوص التواريخ. تظهر المرحلة بجوار تفاصيلها على سطح المكتب، وفوقها على الجوال. لا يضيف القالب سنة تأسيس أو إنجازات أو شركاء افتراضيين.</p>
+<h2 id="_13">مختارات من المدونة</h2>
+<p>بطاقات تحريرية تختار روابط مقالاتها أو صفحاتها الإرشادية من سلة.</p>
+<div class="table-scroll" role="region" tabindex="0" aria-label="جدول قابل للتمرير"><table>
+<thead>
+<tr>
+<th scope="col">الحقل</th>
+<th scope="col">الاستخدام والحد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code>, <code>description</code></td>
+<td>عنوان اختياري 80 حرفاً ومقدمة 320 حرفاً.</td>
+</tr>
+<tr>
+<td><code>layout</code></td>
+<td>شبكة <code>grid</code> أو قائمة بالصورة إلى جانب النص <code>list</code>.</td>
+</tr>
+<tr>
+<td><code>articles</code></td>
+<td>من 1 إلى 3 مقالات.</td>
+</tr>
+<tr>
+<td><code>articles.url</code></td>
+<td>اختيار مقالة منشورة من مصدر <code>blog_articles</code> الأصلي في سلة.</td>
+</tr>
+<tr>
+<td><code>articles.title</code></td>
+<td>عنوان البطاقة، مطلوب، حتى 100 حرف.</td>
+</tr>
+<tr>
+<td><code>articles.excerpt</code></td>
+<td>ملخص اختياري، حتى 260 حرفاً.</td>
+</tr>
+<tr>
+<td><code>articles.image</code>, <code>articles.image_alt</code></td>
+<td>صورة اختيارية 1200×800 ووصفها حتى 180 حرفاً.</td>
+</tr>
+<tr>
+<td><code>url</code>, <code>link_label</code></td>
+<td>رابط المدونة أو تصنيفها، ونص عرض المزيد حتى 48 حرفاً.</td>
+</tr>
+</tbody>
+</table></div>
+<p>أنشئ المقالة أو الصفحة الإرشادية وانشرها في سلة أولاً. اخترها في حقل الوجهة، ثم انسخ عنوانها وملخصها وصورتها وترجمتها إلى البطاقة. اختيار الرابط لا يجلب محتوى المقالة تلقائياً. عند تعديل عنوان المقالة أو صورتها، حدّث البطاقة أيضاً. يعتمد توفر المدونة على إعدادات المتجر وخدمات سلة المتاحة له؛ يمكن عرض أدلة الشراء كصفحات تعريفية عند عدم إتاحتها، دون الادعاء بأنها مدونة أو تفعيل تعليقات لها.</p>
+<p>شبكة سطح المكتب تصل إلى ثلاث بطاقات، وتتحول إلى عمود واحد على الجوال. في وضع القائمة تظل الصورة بجوار النص بحجم مناسب، وتعمل البطاقة أيضاً دون صورة. لا ينشئ القسم بيانات نشر أو أسماء كتّاب أو إعجابات غير موجودة.</p>
+<h2 id="_14">فحص الإعداد قبل النشر</h2>
+<ol>
+<li>افتح كل رابط من المعاينة، خاصة بعد حذف مقالة أو تغيير تصنيف.</li>
+<li>جرّب العربية والإنجليزية، والوضعين الفاتح والداكن من إعدادات طية.</li>
+<li>افحص الصور على الجوال؛ اختر <code>contain</code> في المعرض والقصة إذا كان الاقتصاص يزيل تفاصيل مهمة.</li>
+<li>استخدم لوحة المفاتيح لفتح الأسئلة، وتمرير جدول القياس وشريط الصور، وتشغيل الفيديو.</li>
+<li>راجع أسعار العروض وشروط الشحن والاستبدال في سلة وصفحاتك الأصلية. النص الترويجي وحده لا يفعّل هذه الخدمات.</li>
+<li>جرّب نسختين من القسم عند الحاجة، مع عناوين ومحتوى مختلفين. لا تستخدم جميع الأقسام معاً لمجرد توفرها.</li>
+</ol><section id="english" lang="en" dir="ltr"><h2>English guide</h2><p>All eleven sections use native Twig, Salla configuration fields, and the shared Tayya color scheme. Copy fields are multilingual. Repeatable content has explicit limits. Empty required content is omitted; optional links require a valid destination. No section invents shipping promises, product information, reviews, dates, or commerce behavior.</p>
+<div class="table-scroll" role="region" tabindex="0" aria-label="Scrollable reference table"><table>
+<thead>
+<tr>
+<th scope="col">Section</th>
+<th scope="col">Setup</th>
+<th scope="col">Image guidance</th>
+<th scope="col">Mobile behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Image and text spotlight</td>
+<td>Required image, accessible image description and heading. Optional text/link; reverse desktop order; cover or contain.</td>
+<td>1200×1500, optional mobile 800×1000.</td>
+<td>Image then copy.</td>
+</tr>
+<tr>
+<td>Promotional banner</td>
+<td>Required heading; optional image, terms and link. Activate actual promotions in Salla separately.</td>
+<td>1600×500; mobile 800×600.</td>
+<td>4:3 image with opaque copy area below.</td>
+</tr>
+<tr>
+<td>Promotional card grid</td>
+<td>1-4 image/title/link cards. Balanced or larger first card when there are 3.</td>
+<td>1000×1250; featured first image 1600×1000.</td>
+<td>Two columns; first of 3 spans the row.</td>
+</tr>
+<tr>
+<td>Editorial gallery</td>
+<td>1-8 images, optional captions/links. Grid or scrollable rail; cover or contain.</td>
+<td>1000×1250.</td>
+<td>Two-column grid or touch/keyboard scroll rail.</td>
+</tr>
+<tr>
+<td>Video story</td>
+<td>YouTube with heading, poster and transcript, or a direct silent clip. See the Motion and video guide for MP4 and autoplay settings.</td>
+<td>Poster 1600×900.</td>
+<td>YouTube loads on request with an external fallback; direct clips offer play/pause and reduced-motion support.</td>
+</tr>
+<tr>
+<td>Store benefits</td>
+<td>1-4 actual service statements, optional Salla icons and policy links.</td>
+<td>None.</td>
+<td>Readable single-column list.</td>
+</tr>
+<tr>
+<td>FAQ</td>
+<td>1-12 question/answer pairs, optional links; optionally open first.</td>
+<td>None.</td>
+<td>Native disclosures, independent across instances.</td>
+</tr>
+<tr>
+<td>Size guide</td>
+<td>Name applicable products, units and measurement columns. 1-16 rows and up to 3 measurements.</td>
+<td>Optional 800×1000, displayed fully.</td>
+<td>Keyboard-focusable table scrolls within its container.</td>
+</tr>
+<tr>
+<td>Fabric and care</td>
+<td>1-6 materials, applicable products, verified composition and care, optional link/image.</td>
+<td>800×1000.</td>
+<td>One column with native care disclosures.</td>
+</tr>
+<tr>
+<td>Brand story</td>
+<td>Required title/body, optional photograph, 0-6 genuine chronological milestones.</td>
+<td>1600×1000.</td>
+<td>Stacked date/description.</td>
+</tr>
+<tr>
+<td>Blog/editorial previews</td>
+<td>1-3 native article or information-page links with manually maintained title/excerpt/image. Optional blog/category link.</td>
+<td>1200×800.</td>
+<td>Stacked grid or compact image/text list.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Product options, variant inventory and pricing stay with Salla. Size/care sections are descriptive content. Keep product-specific instructions in each product's supported description/metadata or a linked information page; never assume a universal chart. Blog cards intentionally do not use an undocumented homepage article API and do not auto-sync editorial text.</p></section></main>
+<footer><a href="index.html">دليل طية</a><span>نسخة تجريبية <bdi>0.1.0</bdi> · <time datetime="2026-10-08">8 أكتوبر 2026</time></span><a href="support.html">التواصل والمساعدة</a></footer></div></div></body></html>
